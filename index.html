@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nexora — Transformasi digital premium untuk bisnis Anda. Strategi, teknologi, dan desain dalam satu ekosistem." />
+  <title>Nexora — Digital Transformation Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════ -->
+  <header class="nav" id="navbar">
+    <div class="nav__inner">
+      <a href="#home" class="nav__logo">
+        <span class="nav__logo-mark">N</span>
+        <span class="nav__logo-text">nexora</span>
+      </a>
+
+      <nav class="nav__links" id="navLinks">
+        <a href="#about" class="nav__link">Tentang</a>
+        <a href="#services" class="nav__link">Layanan</a>
+        <a href="#portfolio" class="nav__link">Portofolio</a>
+        <a href="#team" class="nav__link">Tim</a>
+        <a href="#contact" class="nav__link nav__link--cta">Hubungi Kami</a>
+      </nav>
+
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="nav__mobile-overlay" id="mobileOverlay"></div>
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="#about" class="nav__mobile-link">Tentang</a>
+      <a href="#services" class="nav__mobile-link">Layanan</a>
+      <a href="#portfolio" class="nav__mobile-link">Portofolio</a>
+      <a href="#team" class="nav__mobile-link">Tim</a>
+      <a href="#contact" class="nav__mobile-link nav__mobile-link--cta">Hubungi Kami →</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════
+         HERO
+    ═══════════════════════════════════════════ -->
+    <section class="hero" id="home">
+      <div class="hero__bg">
+        <div class="hero__orb hero__orb--1"></div>
+        <div class="hero__orb hero__orb--2"></div>
+        <div class="hero__grid"></div>
+      </div>
+
+      <div class="hero__content">
+        <div class="hero__badge reveal">
+          <span class="hero__badge-dot"></span>
+          <span>Tersedia untuk Proyek Baru · 2025</span>
+        </div>
+
+        <h1 class="hero__headline reveal reveal--delay-1">
+          Kami Membangun<br />
+          <em>Masa Depan Digital</em><br />
+          Bisnis Anda
+        </h1>
+
+        <p class="hero__subline reveal reveal--delay-2">
+          Nexora adalah studio transformasi digital premium yang menggabungkan
+          strategi bisnis, rekayasa teknologi, dan desain kelas dunia — untuk
+          perusahaan yang ingin memimpin industri.
+        </p>
+
+        <div class="hero__actions reveal reveal--delay-3">
+          <a href="#contact" class="btn btn--primary">Mulai Proyek</a>
+          <a href="#portfolio" class="btn btn--ghost">Lihat Karya Kami</a>
+        </div>
+
+        <div class="hero__stats reveal reveal--delay-4">
+          <div class="hero__stat">
+            <span class="hero__stat-num">120+</span>
+            <span class="hero__stat-label">Proyek Selesai</span>
+          </div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat">
+            <span class="hero__stat-num">8 Tahun</span>
+            <span class="hero__stat-label">Pengalaman</span>
+          </div>
+          <div class="hero__stat-divider"></div>
+          <div class="hero__stat">
+            <span class="hero__stat-num">98%</span>
+            <span class="hero__stat-label">Kepuasan Klien</span>
+          </div>
+        </div>
+      </div>
+
+      
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         CLIENTS MARQUEE
+    ═══════════════════════════════════════════ -->
+    <section class="clients">
+      <p class="clients__label">Dipercaya oleh perusahaan terkemuka</p>
+      <div class="clients__track-wrapper">
+        <div class="clients__track">
+          <span class="clients__logo">Mandiri Group</span>
+          <span class="clients__logo">TechCorp ID</span>
+          <span class="clients__logo">Garuda Ventures</span>
+          <span class="clients__logo">Nusantara Digital</span>
+          <span class="clients__logo">Pilar Capital</span>
+          <span class="clients__logo">Archipelago Co.</span>
+          <span class="clients__logo">Mandiri Group</span>
+          <span class="clients__logo">TechCorp ID</span>
+          <span class="clients__logo">Garuda Ventures</span>
+          <span class="clients__logo">Nusantara Digital</span>
+          <span class="clients__logo">Pilar Capital</span>
+          <span class="clients__logo">Archipelago Co.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         ABOUT
+    ═══════════════════════════════════════════ -->
+    <section class="about" id="about">
+      <div class="container">
+
+        <div class="about__header">
+          <div class="section-tag reveal">Tentang Nexora</div>
+          <h2 class="section-title reveal reveal--delay-1">
+            Studio yang lahir dari<br /><em>obsesi terhadap kualitas</em>
+          </h2>
+        </div>
+
+        <div class="about__body">
+          <div class="about__story reveal reveal--delay-1">
+            <p>
+              Didirikan pada 2016 di Jakarta, Nexora lahir dari keyakinan sederhana:
+              <strong>bisnis terbaik di Indonesia layak mendapat teknologi dan desain
+              sekelas perusahaan global.</strong>
+            </p>
+            <p>
+              Selama hampir satu dekade, kami telah membantu lebih dari 120 klien —
+              mulai dari startup seri A hingga korporat nasional — untuk merancang ulang
+              cara mereka beroperasi, berkomunikasi, dan tumbuh melalui teknologi.
+            </p>
+            <p>
+              Kami bukan sekadar vendor. Kami adalah mitra strategis yang ikut
+              menanggung risiko pertumbuhan bersama Anda.
+            </p>
+            <a href="#contact" class="btn btn--outline">Kenali Kami Lebih Jauh →</a>
+          </div>
+
+          <div class="about__values reveal reveal--delay-2">
+            <div class="about__value">
+              <div class="about__value-icon">◈</div>
+              <h3>Visi</h3>
+              <p>Menjadi studio transformasi digital paling terpercaya di Asia Tenggara pada 2030.</p>
+            </div>
+            <div class="about__value">
+              <div class="about__value-icon">◇</div>
+              <h3>Misi</h3>
+              <p>Menghadirkan solusi teknologi premium yang terukur, berkelanjutan, dan berdampak nyata bagi bisnis klien.</p>
+            </div>
+            <div class="about__value">
+              <div class="about__value-icon">◆</div>
+              <h3>Nilai</h3>
+              <p>Kejujuran, keunggulan tanpa kompromi, dan kemitraan jangka panjang yang saling menguntungkan.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SERVICES
+    ═══════════════════════════════════════════ -->
+    <section class="services" id="services">
+      <div class="container">
+
+        <div class="services__header">
+          <div class="section-tag reveal">Layanan Kami</div>
+          <h2 class="section-title reveal reveal--delay-1">
+            Satu ekosistem,<br /><em>semua yang Anda butuhkan</em>
+          </h2>
+          <p class="section-sub reveal reveal--delay-2">
+            Dari strategi hingga eksekusi, kami hadir di setiap tahap perjalanan digital bisnis Anda.
+          </p>
+        </div>
+
+        <div class="services__grid">
+
+          <article class="service-card reveal">
+            <div class="service-card__number">01</div>
+            <div class="service-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 40V16l16-8 16 8v24l-16 6-16-6z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                <path d="M24 8v32M8 16l16 8 16-8" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <h3>Digital Strategy</h3>
+            <p>Peta jalan transformasi digital yang komprehensif — dari audit bisnis hingga roadmap implementasi 3 tahun.</p>
+            <ul class="service-card__list">
+              <li>Business & Tech Audit</li>
+              <li>Digital Roadmap</li>
+              <li>ROI Projection</li>
+            </ul>
+            <div class="service-card__arrow">→</div>
+          </article>
+
+          <article class="service-card reveal reveal--delay-1">
+            <div class="service-card__number">02</div>
+            <div class="service-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="6" y="10" width="36" height="28" rx="3" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M18 24l4 4 8-8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>Product Engineering</h3>
+            <p>Pengembangan produk digital end-to-end dengan arsitektur yang scalable dan kode berkualitas tinggi.</p>
+            <ul class="service-card__list">
+              <li>Web & Mobile App</li>
+              <li>API & Microservices</li>
+              <li>Cloud Infrastructure</li>
+            </ul>
+            <div class="service-card__arrow">→</div>
+          </article>
+
+          <article class="service-card reveal reveal--delay-2">
+            <div class="service-card__number">03</div>
+            <div class="service-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="24" cy="18" r="8" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M8 40c0-8.837 7.163-16 16-16s16 7.163 16 16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>UI/UX Design</h3>
+            <p>Desain pengalaman pengguna yang intuitif, estetis, dan dioptimalkan untuk konversi bisnis.</p>
+            <ul class="service-card__list">
+              <li>UX Research & Testing</li>
+              <li>Interface Design</li>
+              <li>Design System</li>
+            </ul>
+            <div class="service-card__arrow">→</div>
+          </article>
+
+          <article class="service-card reveal reveal--delay-3">
+            <div class="service-card__number">04</div>
+            <div class="service-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 34L24 14l14 20H10z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                <circle cx="38" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <h3>Growth & Analytics</h3>
+            <p>Strategi pertumbuhan berbasis data dengan dashboard analitik real-time untuk keputusan bisnis lebih cepat.</p>
+            <ul class="service-card__list">
+              <li>Data Analytics</li>
+              <li>Growth Hacking</li>
+              <li>Performance Marketing</li>
+            </ul>
+            <div class="service-card__arrow">→</div>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__number">05</div>
+            <div class="service-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 6l4 12h12l-10 8 4 12-10-8-10 8 4-12-10-8h12z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>AI Integration</h3>
+            <p>Integrasi kecerdasan buatan ke dalam proses bisnis Anda untuk efisiensi operasional yang terukur.</p>
+            <ul class="service-card__list">
+              <li>AI Automation</li>
+              <li>LLM Integration</li>
+              <li>Predictive Models</li>
+            </ul>
+            <div class="service-card__arrow">→</div>
+          </article>
+
+          <article class="service-card reveal reveal--delay-1">
+            <div class="service-card__number">06</div>
+            <div class="service-card__icon">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="6" y="6" width="16" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                <rect x="26" y="6" width="16" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                <rect x="6" y="26" width="16" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                <rect x="26" y="26" width="16" height="16" rx="2" stroke="currentColor" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <h3>Enterprise Solutions</h3>
+            <p>Sistem enterprise yang terintegrasi — ERP, CRM, dan platform custom sesuai kebutuhan spesifik bisnis Anda.</p>
+            <ul class="service-card__list">
+              <li>ERP Implementation</li>
+              <li>CRM Development</li>
+              <li>System Integration</li>
+            </ul>
+            <div class="service-card__arrow">→</div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PORTFOLIO
+    ═══════════════════════════════════════════ -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+
+        <div class="portfolio__header">
+          <div class="section-tag reveal">Portofolio</div>
+          <h2 class="section-title reveal reveal--delay-1">
+            Karya yang<br /><em>berbicara sendiri</em>
+          </h2>
+        </div>
+
+        <div class="portfolio__filters reveal">
+          <button class="filter-btn filter-btn--active" data-filter="all">Semua</button>
+          <button class="filter-btn" data-filter="web">Web App</button>
+          <button class="filter-btn" data-filter="mobile">Mobile</button>
+          <button class="filter-btn" data-filter="strategy">Strategy</button>
+          <button class="filter-btn" data-filter="ai">AI / Data</button>
+        </div>
+
+        <div class="portfolio__grid" id="portfolioGrid">
+
+          <article class="portfolio-card" data-category="web">
+            <div class="portfolio-card__img" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);">
+              <div class="portfolio-card__overlay">
+                <span class="portfolio-card__tag">Web App</span>
+                <button class="portfolio-card__view" data-id="1">Lihat Detail</button>
+              </div>
+              <div class="portfolio-card__visual">
+                <div class="pv pv--dashboard"></div>
+              </div>
+            </div>
+            <div class="portfolio-card__body">
+              <h3>Mandiri Analytics Platform</h3>
+              <p>Dashboard analitik real-time untuk 50.000+ transaksi harian dengan visualisasi data interaktif.</p>
+              <div class="portfolio-card__tags">
+                <span>React</span><span>Node.js</span><span>PostgreSQL</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-category="mobile">
+            <div class="portfolio-card__img" style="background: linear-gradient(135deg, #0d0d0d 0%, #1a0a00 50%, #2d1500 100%);">
+              <div class="portfolio-card__overlay">
+                <span class="portfolio-card__tag">Mobile App</span>
+                <button class="portfolio-card__view" data-id="2">Lihat Detail</button>
+              </div>
+              <div class="portfolio-card__visual">
+                <div class="pv pv--mobile"></div>
+              </div>
+            </div>
+            <div class="portfolio-card__body">
+              <h3>GarudaPay Super App</h3>
+              <p>Aplikasi fintech dengan 200K+ pengguna aktif, mencakup pembayaran, investasi, dan asuransi.</p>
+              <div class="portfolio-card__tags">
+                <span>Flutter</span><span>Firebase</span><span>Go</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-category="strategy">
+            <div class="portfolio-card__img" style="background: linear-gradient(135deg, #0a0a1a 0%, #0d1a0d 50%, #0a1a15 100%);">
+              <div class="portfolio-card__overlay">
+                <span class="portfolio-card__tag">Strategy</span>
+                <button class="portfolio-card__view" data-id="3">Lihat Detail</button>
+              </div>
+              <div class="portfolio-card__visual">
+                <div class="pv pv--chart"></div>
+              </div>
+            </div>
+            <div class="portfolio-card__body">
+              <h3>Nusantara Digital Transformation</h3>
+              <p>Roadmap transformasi digital 3 tahun untuk konglomerat retail dengan 800+ gerai nasional.</p>
+              <div class="portfolio-card__tags">
+                <span>Strategy</span><span>Digital Audit</span><span>Roadmap</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-category="ai">
+            <div class="portfolio-card__img" style="background: linear-gradient(135deg, #0d0014 0%, #140028 50%, #1a003d 100%);">
+              <div class="portfolio-card__overlay">
+                <span class="portfolio-card__tag">AI / Data</span>
+                <button class="portfolio-card__view" data-id="4">Lihat Detail</button>
+              </div>
+              <div class="portfolio-card__visual">
+                <div class="pv pv--ai"></div>
+              </div>
+            </div>
+            <div class="portfolio-card__body">
+              <h3>Archipelago AI Engine</h3>
+              <p>Sistem rekomendasi berbasis ML untuk platform e-commerce, meningkatkan konversi 340%.</p>
+              <div class="portfolio-card__tags">
+                <span>Python</span><span>TensorFlow</span><span>AWS</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-category="web">
+            <div class="portfolio-card__img" style="background: linear-gradient(135deg, #001a0d 0%, #00330f 50%, #004d18 100%);">
+              <div class="portfolio-card__overlay">
+                <span class="portfolio-card__tag">Web App</span>
+                <button class="portfolio-card__view" data-id="5">Lihat Detail</button>
+              </div>
+              <div class="portfolio-card__visual">
+                <div class="pv pv--ecommerce"></div>
+              </div>
+            </div>
+            <div class="portfolio-card__body">
+              <h3>Pilar Commerce Platform</h3>
+              <p>Platform B2B commerce dengan manajemen inventory otomatis dan integrasi 12 payment gateway.</p>
+              <div class="portfolio-card__tags">
+                <span>Next.js</span><span>Prisma</span><span>Redis</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="portfolio-card" data-category="mobile">
+            <div class="portfolio-card__img" style="background: linear-gradient(135deg, #1a0a0a 0%, #2d1111 50%, #3d1515 100%);">
+              <div class="portfolio-card__overlay">
+                <span class="portfolio-card__tag">Mobile App</span>
+                <button class="portfolio-card__view" data-id="6">Lihat Detail</button>
+              </div>
+              <div class="portfolio-card__visual">
+                <div class="pv pv--health"></div>
+              </div>
+            </div>
+            <div class="portfolio-card__body">
+              <h3>MediConnect Health App</h3>
+              <p>Aplikasi telemedicine yang menghubungkan 1.500+ dokter dengan pasien di seluruh Indonesia.</p>
+              <div class="portfolio-card__tags">
+                <span>React Native</span><span>WebRTC</span><span>AWS</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         TESTIMONIALS
+    ═══════════════════════════════════════════ -->
+    <section class="testimonials">
+      <div class="container">
+
+        <div class="testimonials__header">
+          <div class="section-tag reveal">Testimoni</div>
+          <h2 class="section-title reveal reveal--delay-1">
+            Kata mereka tentang<br /><em>Nexora</em>
+          </h2>
+        </div>
+
+        <div class="testimonials__grid">
+
+          <blockquote class="testi-card reveal">
+            <div class="testi-card__quote">"</div>
+            <p>Nexora bukan sekadar vendor teknologi. Mereka benar-benar memahami bisnis kami dan memberikan solusi yang jauh melampaui ekspektasi kami.</p>
+            <footer class="testi-card__author">
+              <div class="testi-card__avatar" style="background: linear-gradient(135deg, #c9a84c, #f0d080);">DF</div>
+              <div>
+                <cite>Dilan Francis Till</cite>
+                <span>CEO, Mandiri Group</span>
+              </div>
+            </footer>
+            <div class="testi-card__stars">★★★★★</div>
+          </blockquote>
+
+          <blockquote class="testi-card testi-card--featured reveal reveal--delay-1">
+            <div class="testi-card__quote">"</div>
+            <p>Platform yang mereka bangun untuk kami berhasil mengurangi operational cost sebesar 60% dalam 6 bulan pertama. ROI-nya luar biasa.</p>
+            <footer class="testi-card__author">
+              <div class="testi-card__avatar" style="background: linear-gradient(135deg, #4c8ac9, #80b8f0);">SS</div>
+              <div>
+                <cite>Sari Setiawati</cite>
+                <span>CTO, TechCorp ID</span>
+              </div>
+            </footer>
+            <div class="testi-card__stars">★★★★★</div>
+          </blockquote>
+
+          <blockquote class="testi-card reveal reveal--delay-2">
+            <div class="testi-card__quote">"</div>
+            <p>Kualitas kode, desain UI, dan komunikasi tim Nexora berada di level yang berbeda. Mereka tahu apa artinya benar-benar profesional.</p>
+            <footer class="testi-card__author">
+              <div class="testi-card__avatar" style="background: linear-gradient(135deg, #4cc9a8, #80f0d8);">MT</div>
+              <div>
+                <cite>M. Taufiq Margolang</cite>
+                <span>Director, Garuda Ventures</span>
+              </div>
+            </footer>
+            <div class="testi-card__stars">★★★★★</div>
+          </blockquote>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         TEAM
+    ═══════════════════════════════════════════ -->
+    <section class="team" id="team">
+      <div class="container">
+
+        <div class="team__header">
+          <div class="section-tag reveal">Tim Kami</div>
+          <h2 class="section-title reveal reveal--delay-1">
+            Orang-orang di balik<br /><em>karya terbaik kami</em>
+          </h2>
+          <p class="section-sub reveal reveal--delay-2">
+            20+ profesional berpengalaman dari Google, Tokopedia, dan Gojek.
+          </p>
+        </div>
+
+        <div class="team__grid">
+
+          <article class="team-card reveal">
+            <div class="team-card__photo" style="background: linear-gradient(160deg, #1a1a2e, #c9a84c33);">
+              <div class="team-card__initials">RH</div>
+            </div>
+            <div class="team-card__body">
+              <h3>Rafi Hakim</h3>
+              <span class="team-card__role">Co-Founder & CEO</span>
+              <p>Ex-Google, 12+ tahun pengalaman di product strategy dan digital transformation.</p>
+            </div>
+          </article>
+
+          <article class="team-card reveal reveal--delay-1">
+            <div class="team-card__photo" style="background: linear-gradient(160deg, #1a2e1a, #4cc9a833);">
+              <div class="team-card__initials">DN</div>
+            </div>
+            <div class="team-card__body">
+              <h3>Dewi Nuraini</h3>
+              <span class="team-card__role">Chief Design Officer</span>
+              <p>Ex-Tokopedia, spesialis UX design dengan portofolio 60+ produk digital.</p>
+            </div>
+          </article>
+
+          <article class="team-card reveal reveal--delay-2">
+            <div class="team-card__photo" style="background: linear-gradient(160deg, #1a1a2e, #4c8ac933);">
+              <div class="team-card__initials">AP</div>
+            </div>
+            <div class="team-card__body">
+              <h3>Arief Pratama</h3>
+              <span class="team-card__role">Chief Technology Officer</span>
+              <p>Ex-Gojek, arsitek sistem terdistribusi dengan keahlian cloud dan AI engineering.</p>
+            </div>
+          </article>
+
+          <article class="team-card reveal reveal--delay-3">
+            <div class="team-card__photo" style="background: linear-gradient(160deg, #2e1a1a, #c94c4c33);">
+              <div class="team-card__initials">LK</div>
+            </div>
+            <div class="team-card__body">
+              <h3>Laras Kusuma</h3>
+              <span class="team-card__role">Head of Growth</span>
+              <p>Spesialis data-driven marketing dengan rekam jejak menggandakan revenue klien 3x.</p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         CTA BANNER
+    ═══════════════════════════════════════════ -->
+    <section class="cta-banner">
+      <div class="cta-banner__bg">
+        <div class="cta-banner__orb cta-banner__orb--1"></div>
+        <div class="cta-banner__orb cta-banner__orb--2"></div>
+      </div>
+      <div class="container">
+        <div class="cta-banner__content reveal">
+          <div class="section-tag">Siap Memulai?</div>
+          <h2>Mari wujudkan visi<br /><em>digital Anda bersama kami</em></h2>
+          <p>Konsultasi pertama gratis. Tidak ada komitmen, hanya percakapan jujur tentang tantangan bisnis Anda.</p>
+          <div class="cta-banner__actions">
+            <a href="#contact" class="btn btn--gold">Jadwalkan Konsultasi</a>
+            <a href="tel:+62215551234" class="btn btn--ghost-light">+62 21 555 1234</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         CONTACT
+    ═══════════════════════════════════════════ -->
+    <section class="contact" id="contact">
+      <div class="container">
+
+        <div class="contact__grid">
+
+          <div class="contact__info reveal">
+            <div class="section-tag">Kontak</div>
+            <h2 class="section-title">Mulai percakapan<br /><em>hari ini</em></h2>
+            <p>Tim kami siap merespons dalam 24 jam kerja. Ceritakan tantangan bisnis Anda, dan kami akan bantu menemukannya solusinya.</p>
+
+            <div class="contact__details">
+              <div class="contact__detail">
+                <div class="contact__detail-icon">◎</div>
+                <div>
+                  <strong>Alamat</strong>
+                  <span>Nexora Tower, Lt. 18<br />Jl. Sudirman Kav. 52, Jakarta 12920</span>
+                </div>
+              </div>
+              <div class="contact__detail">
+                <div class="contact__detail-icon">◎</div>
+                <div>
+                  <strong>Email</strong>
+                  <span>hello@nexora.id</span>
+                </div>
+              </div>
+              <div class="contact__detail">
+                <div class="contact__detail-icon">◎</div>
+                <div>
+                  <strong>Telepon</strong>
+                  <span>+62 21 555 1234</span>
+                </div>
+              </div>
+              <div class="contact__detail">
+                <div class="contact__detail-icon">◎</div>
+                <div>
+                  <strong>Jam Operasional</strong>
+                  <span>Senin – Jumat, 09:00 – 18:00 WIB</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact__social">
+              <a href="#" class="contact__social-link" aria-label="LinkedIn">in</a>
+              <a href="#" class="contact__social-link" aria-label="Instagram">ig</a>
+              <a href="#" class="contact__social-link" aria-label="Twitter/X">x</a>
+              <a href="#" class="contact__social-link" aria-label="Dribbble">dr</a>
+            </div>
+          </div>
+
+          <div class="contact__form-wrap reveal reveal--delay-1">
+            <form class="contact-form" id="contactForm" novalidate>
+              <div class="form-group">
+                <label for="name">Nama Lengkap</label>
+                <input type="text" id="name" name="name" placeholder="Budi Santoso" autocomplete="name" />
+                <span class="form-error" id="nameError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="company">Perusahaan</label>
+                <input type="text" id="company" name="company" placeholder="PT Maju Bersama" />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email Bisnis</label>
+                <input type="email" id="email" name="email" placeholder="budi@perusahaan.com" autocomplete="email" />
+                <span class="form-error" id="emailError"></span>
+              </div>
+
+              <div class="form-group">
+                <label for="service">Layanan yang Diminati</label>
+                <select id="service" name="service">
+                  <option value="">Pilih layanan...</option>
+                  <option value="strategy">Digital Strategy</option>
+                  <option value="engineering">Product Engineering</option>
+                  <option value="design">UI/UX Design</option>
+                  <option value="growth">Growth & Analytics</option>
+                  <option value="ai">AI Integration</option>
+                  <option value="enterprise">Enterprise Solutions</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Ceritakan Tantangan Anda</label>
+                <textarea id="message" name="message" rows="4" placeholder="Kami ingin membangun platform yang..."></textarea>
+                <span class="form-error" id="messageError"></span>
+              </div>
+
+              <button type="submit" class="btn btn--primary btn--full" id="submitBtn">
+                <span class="btn-text">Kirim Pesan</span>
+                <span class="btn-loading" hidden>Mengirim...</span>
+              </button>
+
+              <div class="form-success" id="formSuccess" hidden>
+                <div class="form-success__icon">✓</div>
+                <strong>Pesan berhasil terkirim!</strong>
+                <p>Tim kami akan menghubungi Anda dalam 24 jam kerja.</p>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#home" class="nav__logo footer__logo">
+            <span class="nav__logo-mark">N</span>
+            <span class="nav__logo-text">nexora</span>
+          </a>
+          <p>Studio transformasi digital yang membantu bisnis Indonesia tumbuh melalui teknologi dan desain kelas dunia.</p>
+        </div>
+
+        <div class="footer__links">
+          <div class="footer__col">
+            <h4>Perusahaan</h4>
+            <a href="#about">Tentang Kami</a>
+            <a href="#team">Tim</a>
+            <a href="#portfolio">Portofolio</a>
+            <a href="#">Karir</a>
+          </div>
+          <div class="footer__col">
+            <h4>Layanan</h4>
+            <a href="#services">Digital Strategy</a>
+            <a href="#services">Product Engineering</a>
+            <a href="#services">UI/UX Design</a>
+            <a href="#services">AI Integration</a>
+          </div>
+          <div class="footer__col">
+            <h4>Kontak</h4>
+            <a href="mailto:hello@nexora.id">hello@nexora.id</a>
+            <a href="tel:+62215551234">+62 21 555 1234</a>
+            <a href="#">Jakarta, Indonesia</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© 2025 Nexora Digital Studio. Hak cipta dilindungi.</p>
+        <div class="footer__legal">
+          <a href="#">Kebijakan Privasi</a>
+          <a href="#">Syarat & Ketentuan</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════════════
+       PORTFOLIO MODAL
+  ═══════════════════════════════════════════ -->
+  <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal">
+      <button class="modal__close" id="modalClose" aria-label="Tutup modal">✕</button>
+      <div class="modal__body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Kembali ke atas">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
